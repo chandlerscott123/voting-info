@@ -7,7 +7,7 @@
 
 </head>
 <body>
-  <h1>Voting Information!</h1>
+  <h1>Voting Information</h1>
   <h2>Stoked to hear you're interested in learning about voting!</h2>
   <div>
   <!--form that asks user to enter current age-->
@@ -15,21 +15,40 @@
       <label for="age">To provide the most useful information for you, what is your current age?</label>
       <input id="age" type="number">
       <button type="submit">Submit!</button>
-
-
-
     </form>
-
-
-  <!--Voting Info for people over 18-->
-
-
+    <!--Voting Info for people over 18-->
+    <div id="ofAge" class="hidden">
+      <h3>Okay, Great! You're of voting age!</h3>
+      <h4>Here are some resources for you, click on the links below!</h4>
+      <ol>
+        <li>
+          <a href="https://tinyurl.com/8xkns8x2"> Check your voter registration status</a>
+        </li>
+        <li>
+          <a href="https://tinyurl.com/4z9v6asm">Find your nearest polling place</a>
+        </li>
+        <li>
+          <a href="https://www.vote411.org/">Discover upcoming elections that affect you</a>
+        </li>
+      </ol>
+    </div>
   <!--Other Suggestions for getting involved 
   for those who aren't 18-->
+    <div id ="notOfAge" class ="hidden">
+      <h3>You're not of voting age, but you can still learn about getting involved.</h3>
+      <h4>Here are some resources for you to learn more about voting, click on the links below:</h4>
+      <ol>
+        <li>
+          <a href="https://tinyurl.com/52ct6397"> Watch an informational video about the voting process!</a>
+        </li>
+        <li>
+          <a href="https://tinyurl.com/2s3mwrpk">Learn about the concept of Voting Rights, including how they've been threatened and protected</a>
+        </li>
+        <li>
+          <a href="https://www.vote411.org/">Learn about upcoming elections that affect you</a>
+        </li>
+      </ol>
+    </div>
   </div>
 </body>
-
-
-
-
 </html>
